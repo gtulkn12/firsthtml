@@ -1,6 +1,27 @@
-.form-group {
-  margin-top: 15px;
-  color: green;
-  border-color: red;
-  border-style: solid;
+.main_container {
+  position: relative;
+}
+
+.main_container section {
+  position: relative;
+  padding-top: 10px;
+}
+
+.nav {
+  background-color: lightgrey;
+  height: 30px;
+  display: flex;
+  position: sticky;
+
+  width: 100%;
+  top: 0px;
+  z-index: 100; /*allows menu to allways be the top item */
+}
+
+.nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  align-self: center;
 }
